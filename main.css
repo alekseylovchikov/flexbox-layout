@@ -173,5 +173,16 @@ footer {
   .sidebar {
     flex: none;
     width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  ul {
+    flex-direction: column;
+  }
+
+  ul li {
+    text-align: center;
   }
 }

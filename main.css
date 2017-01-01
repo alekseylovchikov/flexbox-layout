@@ -132,3 +132,9 @@ ul li a:hover {
     height: 600px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

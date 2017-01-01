@@ -6,6 +6,10 @@
   font-weight: 300;
 }
 
+h1 {
+  margin: 1rem 0;
+}
+
 nav {
   background: #1b171f;
 }
@@ -14,6 +18,11 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+}
+
+ul li a h4 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
 }
 
 ul li a {
@@ -49,7 +58,8 @@ ul li a:hover {
 }
 
 .banner-text h1 {
-  font-size: 44px;
+  font-size: 64px;
+  font-family: 'Pacifico', cursive;
 }
 
 .main-content {
@@ -85,6 +95,10 @@ ul li a:hover {
   padding: 8px;
   text-transform: uppercase;
   font-weight: 300;
+}
+
+.image-grid__title h1 {
+  font-family: 'Amatic SC', cursive;
 }
 
 .image-grid {
@@ -149,6 +163,11 @@ footer {
   color: #fff;
   text-align: center;
   padding: 160px 0;
+}
+
+footer p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
 }
 
 @media screen and (max-width: 800px) {

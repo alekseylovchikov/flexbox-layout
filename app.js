@@ -1,8 +1,8 @@
 'use strict';
 
-let menu = $('.main-nav');
-let windowHeight = $(window).innerHeight() - 67;
-let menuLink = $('ul li a');
+const menu = $('.main-nav');
+const windowHeight = $(window).innerHeight() - 67;
+const menuLink = $('ul li a');
 
 $(window).on('scroll', function(e) {
   if (e.currentTarget.window.scrollY >= windowHeight) {

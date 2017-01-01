@@ -206,6 +206,10 @@ footer p {
 }
 
 @media screen and (max-width: 375px) {
+  .banner {
+    align-items: flex-end;
+  }
+
   ul {
     flex-direction: column;
   }
